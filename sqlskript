@@ -1,0 +1,10 @@
+drop schema if exists handleliste cascade;
+create schema handleliste;
+
+create table handleliste.vare(
+	navn varchar primary key,
+	status smallint,
+	farge varchar,
+	bilde varchar);
+	
+	insert into handleliste.vare values('Pære', 0, '', 'pære.png'), ('Avokado', 0, '', 'avokado.png');

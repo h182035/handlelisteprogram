@@ -1,0 +1,75 @@
+
+body {
+	background-color:#F2F3F3;
+}
+
+#leggtil {
+	width: 300px;
+	margin: 0 auto;
+	margin-top: 300px;
+	border:1px solid white;
+	font-size:20px;
+	padding:30px;
+	text-align:center;
+}#leggtil button{
+	background:#000;
+	border:1px solid white;
+	font-size:20px;
+	color:#fff;
+}
+
+#content{
+	display:grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+	grid-column-gap: 10px;
+	grid-row-gap: 10px;
+	margin: 0 auto;
+	width: 1200px;
+	
+}
+
+#content div{
+	background:#3bbced;
+	padding:30px;
+	text-align:center;
+}
+#content div:nth-child(even){
+	background:#777;
+}
+#meny{
+	display:grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+	grid-column-gap: 10px;
+	grid-row-gap: 10px;
+	margin: 0 auto;
+	width: 1000px;
+	height: 100px;
+	text-align:center;
+}
+#meny a{
+	text-decoration:none;
+	font-size:25px;
+	color:#000;
+}
+
+button {
+    background-color: Transparent;
+    background-repeat:no-repeat;
+    border: none;
+    cursor:pointer;
+    overflow: hidden;
+    outline:none;
+}
+.knapp{
+	border:1px solid;
+	font-size:22px;
+	background-color:aqua;
+}
+#header{
+	margin: 0 auto;
+	width: auto;
+	text-align: center;
+	font-size: 35px;
+	font-color: #383838;
+}
+
